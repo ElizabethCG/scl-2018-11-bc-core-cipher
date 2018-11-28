@@ -5,11 +5,51 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
+
   <body>
     <div id="root">
       <h1>Hola mundo!</h1>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+
+ <!-- Hasta aquí boilerplate  entregado -->
+
+
+
+    <img src="flores-amarillas.jpg" width="300" height="150" />
+
+
+     <div id="bienvenido">
+        <h1>¡Bienvenid@ a la Mensajería secreta</h1>
+        <p>Ingresa tu <strong>mensaje</strong></p>
+
+        <form>
+          <!-- Revisar FORM -->
+          <!-- REVISAR INPUT TYPE "INGRESAR MENSAJE"  Y NAME =MENSAJE-->
+          <input type="ingresar mensaje" id="mensaje" placeholder="Ingresar mensaje aquí" name="mensaje" required/>
+            <p><input type="ingresar desplazamiento" id="desplazamiento" placeholder="Ingresar desplazamiento aquí" name="desplazamiento" required/></p>
+
+            <p><input onclick="escribirMensaje()" value="Cifrar mensaje" type="button"/>
+            <p><input onclick="descifrar()" value="Descifrar mensaje" type="button"/>
+        </form>
+    </div>
+
+
+    <div id="mensajeFinal">
+
+       <p1>Mensaje cifrado</p1>
+       <p2>Mensaje cifrado aquí</p2>
+
+           <!-- <form>
+           <input type="mensaje resultado" id="mensajeR" placeholder=" " name="mensajeR" required/>
+           </form> -->
+      </div>
+
+
+ <!-- <script type="text/javascript" src="app.js"></script> -->
+
+ <script src="cipher.js"></script>
+ <script src="index.js"></script>
+
   </body>
 </html>
