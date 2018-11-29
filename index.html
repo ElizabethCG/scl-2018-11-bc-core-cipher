@@ -8,45 +8,40 @@
 
 
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
 
- <!-- Hasta aquí boilerplate  entregado -->
-
-
-
-    <img src="flores-amarillas.jpg" width="300" height="150" />
-
+    <!-- <img src="flores-amarillas.jpg" width="400" height="250" /> -->
 
      <div id="bienvenido">
-        <h1>¡Bienvenid@ a la Mensajería secreta</h1>
-        <p>Ingresa tu <strong>mensaje</strong></p>
-
+        <h1> Querido Diario, tu secreto mejor guardado </h1>
+        <img src="flores-amarillas.jpg" width="400" height="200" />
+        <p></p>
+        <!-- <p>Ingresa tu <strong>mensaje</strong></p> -->
         <form>
           <!-- Revisar FORM -->
           <!-- REVISAR INPUT TYPE "INGRESAR MENSAJE"  Y NAME =MENSAJE-->
-          <input type="ingresar mensaje" id="mensaje" placeholder="Ingresar mensaje aquí" name="mensaje" required/>
-            <p><input type="ingresar desplazamiento" id="desplazamiento" placeholder="Ingresar desplazamiento aquí" name="desplazamiento" required/></p>
+          <input type="ingresar mensaje" id="mensaje" placeholder="Tu mensaje aquí" name="mensaje" required/>
+            <p><input type="ingresar desplazamiento" id="desplazamiento" placeholder="Desplazamiento aquí" name="desplazamiento" required/></p>
 
-            <p><input onclick="escribirMensaje()" value="Cifrar mensaje" type="button"/>
-            <p><input onclick="descifrar()" value="Descifrar mensaje" type="button"/>
+            <p><input onclick="escribirMensaje()" id="btn" value="  Cifrar mensaje  " type="button"/>
+               <input onclick="descifrar()" id="btn" value="Descifrar mensaje" type="button"/>
         </form>
     </div>
 
 
     <div id="mensajeFinal">
 
-       <p1>Mensaje cifrado</p1>
+       <p1> </p1>
        <p2>Mensaje cifrado aquí</p2>
 
            <!-- <form>
            <input type="mensaje resultado" id="mensajeR" placeholder=" " name="mensajeR" required/>
            </form> -->
       </div>
+      <!-- DIV ENTREGADO EN EL FORMATO -->
+      <div id="root">
+        <h1> </h1>
+      </div>
 
-
- <!-- <script type="text/javascript" src="app.js"></script> -->
 
  <script src="cipher.js"></script>
  <script src="index.js"></script>

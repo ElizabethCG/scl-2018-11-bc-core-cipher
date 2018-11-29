@@ -1,1 +1,106 @@
-/* Acá va tu código */
+html {
+  color: #595964;
+  /* color: #C39BD3; */
+  /* background-color: #A8FFF3; */
+
+  background-color: #C39BD3;
+  text-align: center;
+  margin: 10%
+}
+
+body {
+  font-family: helvetica;
+  /* font-family: 'Pacifico', cursive; */
+  /* background-color:darksalmon; */
+}
+
+#mensajeFinal{
+  display:none;
+
+  background-color:azure;
+  /* border:none; */
+  border-color: gray;
+  border-width: 2px;
+  border-style: solid;
+  /* margin: 10% */
+  margin: 0 auto;
+  font-size: 15px;
+  border-radius: 18px;
+  height: 70px;
+  width: 500px;
+  font-family: 'Pacifico', cursive;
+  font-weight: 10;
+  top: 50px;
+  text-align: center;
+
+
+}
+
+#btn{text-decoration:none;
+font-weight: 400; //grosor
+font-size: 15px; // tamaño
+color:#333333;
+/* padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px; */
+background-color:#FFD27D;
+border-color: green;
+border-width: 1,5px;
+border-style: solid;
+border-radius:8px;
+
+height: 30px;//ancho
+width: 200px;//largo
+font-family: 'Pacifico', cursive;
+font-weight: 10;
+text-align: center;}
+
+#mensaje{
+/* color:crimson; */
+background-color:azure;
+/* border:none; */
+border-color: gray;
+border-width: 2px;
+border-style: solid;
+
+
+font-size: 20px;
+border-radius: 8px;
+height: 70px;
+width: 500px;
+/* font-family: 'Pacifico', cursive; */
+font-weight: 10;
+text-align: center;}
+
+#desplazamiento{
+/* color:crimson; */
+background-color:azure;
+/* border:none; */
+border-color: gray;
+border-width: 2px;
+border-style: solid;
+border-radius:8px;
+
+font-size: 15px;
+/* border-radius: 100px; */
+height: 35px;
+width: 200px;
+/* font-family: 'Pacifico', cursive; */
+font-weight: 10;
+text-align: center;}
+
+
+/* .buttons{
+    color:crimson;
+    background-color:azure;
+    border:none;
+    font-size: 40px;
+    /* border-radius: 100px; */
+    /* height: 70px;
+    width: 500px; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-weight: 10;
+    text-align: center;
+
+} */
