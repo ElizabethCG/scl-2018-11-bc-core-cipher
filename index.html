@@ -10,20 +10,32 @@
   <body>
 
     <!-- <img src="flores-amarillas.jpg" width="400" height="250" /> -->
+    <div id="pInicial">
+       <h1> Bienvenida a Querido Diario </h1>
+       <p>¿Quieres llevar el registro de tu día a día o mantener un diario personal, pero te preocupa tu privacidad? </p>
+       <p>Si quieres evitar que alguien curioso lea tus secretos, entonces Querido Diario es para ti. </p>
+       <p>Esta aplicación utiliza la última tecnología de cifrado César para proteger tu privacidad y mantener resguardada tu información. </p>
+     </div>
+
+     <div>
+     <input  id="btns" value=" Leer más " type="button"/>
+     <input  id="btn" value=" Instrucciones de uso " type="button"/>
+     </div>
+
 
      <div id="bienvenido">
-        <h1> Querido Diario, tu secreto mejor guardado </h1>
+        <h1> Querido Diario... tu secreto mejor guardado </h1>
         <img src="flores-amarillas.jpg" width="400" height="200" />
         <p></p>
         <!-- <p>Ingresa tu <strong>mensaje</strong></p> -->
         <form>
           <!-- Revisar FORM -->
           <!-- REVISAR INPUT TYPE "INGRESAR MENSAJE"  Y NAME =MENSAJE-->
-          <input type="ingresar mensaje" id="mensaje" placeholder="Tu mensaje aquí" name="mensaje" required/>
-            <p><input type="ingresar desplazamiento" id="desplazamiento" placeholder="Desplazamiento aquí" name="desplazamiento" required/></p>
+          <input type="ingresar mensaje" id="mensaje" placeholder="Escribe tu mensaje aquí" name="mensaje" required/>
+            <p><input type="ingresar desplazamiento" id="desplazamiento" placeholder="Indica tu desplazamiento para encriptar aquí" name="desplazamiento" required/></p>
 
-            <p><input onclick="escribirMensaje()" id="btn" value="  Cifrar mensaje  " type="button"/>
-               <input onclick="descifrar()" id="btn" value="Descifrar mensaje" type="button"/>
+            <p><input onclick="escribirMensaje()"  id="botn" value="    Cifrar  mensaje    "     type="button"/>
+               <input onclick="descifrar()" id="boton" value="  Descifrar  mensaje  " type="button"/></p>
         </form>
     </div>
 
