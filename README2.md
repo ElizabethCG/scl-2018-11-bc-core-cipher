@@ -1,14 +1,7 @@
 # Querido Diario.
 
-### Quiénes son los usuarios y su relación con el producto.
-### Cómo el producto soluciona los problemas/necesidades de los usuarios.
 
-debe explicar cómo descargar, instalar y ejecutar la aplicación
-así como una introducción a la aplicación, su funcionalidad y decisiones de
-diseño que tomaron.
-
-
-
+Después de una rigurosa investigación de mercado, se detectó que la mayoría de las mujeres y niñas gustan de utilizar agendas privadas y cuadernos de notas personales. En general, son las principales consumidoras de este tipo de elementos. Muchas de ellas acostumbran llevarlas siempre consigo, para mantenerlas siempre actualizadas y para evitar que otras personas las lean por curiosidad o casualidad.
 
 **_Querido Diario_** es una aplicación pensada para todas aquellas mujeres, pequeñas o grandes, que desean mantener un registro de su día a día, pero les interesa que su información se mantenga en secreto y no accesible a otras personas.
 
@@ -35,7 +28,7 @@ Para descifrar un mensaje ya encriptado corta y pega el párrafo en la caja de t
 
 ## Instalación
 
-Por el momento esta app no requiere instalación, ya que se accede a ella en modo local.
+Por el momento esta app no requiere instalación, ya que se accede a ella desde ![acá](https://ElizabethCG.github.io/scl-2018-11-bc-core-cipher/index.html)
 
 
 # Proceso y decisiones de diseño.
@@ -50,42 +43,10 @@ El color de fondo pretente aportar un aire de feminidad, creatividad e imaginaci
 Siguiendo en la linea anterior, se incorpora una imagen de fondo que permita un contraste, pero con una temática emimentemente femenina y fresca.
 
 
-
-# Test aplicados:
-
-Para ejecutar los test se debe correr la instrucción "npm test". El resultado en la consola es el siguiente:
-
-```text
-
-  cipher
-    √ debería ser un objeto
-    cipher.encode
-      √ debería ser una función
-      √ debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33
-    cipher.decode
-      √ debería ser una función
-      √ debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33
-
-
-  5 passing (29ms)
-
------------|----------|----------|----------|----------|-------------------|
-File       |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
------------|----------|----------|----------|----------|-------------------|
-All files  |    72.73 |       50 |      100 |    71.88 |                   |
- cipher.js |    72.73 |       50 |      100 |    71.88 |... 49,50,51,53,60 |
------------|----------|----------|----------|----------|-------------------|
-```
-
-
-![Test-aplicados](https://github.com/ElizabethCG/imagenes/blob/master/test.png)
-
-
-
 ### Interfaz de usuario (UI)
 
   La interfaz permite al usuario:
-  - Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
+  - Elegir un _desplazamiento_ indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
   - Insertar un mensaje (texto) que queremos cifrar.
   - Ver el resultado del mensaje cifrado.
   - Insertar un mensaje (texto) a descifrar.
@@ -95,32 +56,19 @@ All files  |    72.73 |       50 |      100 |    71.88 |                   |
 
 
 
-Diseño de experiencia de usuario (User Experience Design):
-
-- Ideación
-- Prototipado (sketching)
-- Testeo e Iteración
-
-Desarrollo Front-end:
-
-* Valores
-* Tipos
-* Variables
-* Control de flujo
-* Tests unitarios
-
-
-##Mejoras futuras
+## Mejoras futuras
 
 Esta versión de la aplicación no considera el cifrado de letras ñ ni otros caracteres epeciales (como espacios, puntuación, ñ, ...). Solamente se acota al cifrado del alfabeto español sin ñ, tanto mayúsculas como minúsculas.
-Cuando el usuario ingresa un caracter diferente, el caracter se condiera en el texto, pero sin cifrarse.
+Cuando el usuario ingresa un caracter diferente, el caracter se considera en el texto, pero sin cifrarse.
 
-El offset solo se considera para números enteros positivos.
+El desplazamiento solo se considera para números enteros positivos.
 
 En una versión futura se considerará la mejora para ambas situaciones.
 
 
 
+
+INFORMACIÓN PARA DESARROLLADORES
 
 ## Consideraciones Técnicas
 
@@ -172,3 +120,48 @@ información sobre el parser que usar (qué version de JavaScript/ECMAScript), e
 entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
 En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
+
+
+
+# Test aplicados:
+
+Para ejecutar los test se debe correr la instrucción "npm test". El resultado en la consola es el siguiente:
+
+```text
+
+  cipher
+    √ debería ser un objeto
+    cipher.encode
+      √ debería ser una función
+      √ debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33
+    cipher.decode
+      √ debería ser una función
+      √ debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33
+
+
+  5 passing (29ms)
+
+-----------|----------|----------|----------|----------|-------------------|
+File       |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+-----------|----------|----------|----------|----------|-------------------|
+All files  |    72.73 |       50 |      100 |    71.88 |                   |
+ cipher.js |    72.73 |       50 |      100 |    71.88 |... 49,50,51,53,60 |
+-----------|----------|----------|----------|----------|-------------------|
+```
+
+
+![Test-aplicados](https://github.com/ElizabethCG/imagenes/blob/master/test.png)
+
+
+
+
+## Si quieres contribuir para mejorar esta aplicación, haz lo siguiente:
+
+
+* Realiza un Fork al repositorio
+* Crea una nueva branch (git checkout -b improve-feature)
+* Realiza los cambios en los archivo
+* Realiza un Add para reflejar los cambios
+* Haz Commit de tus cambios (git commit -am 'Improve feature')
+* Realiza un Push a la rama (branch) (git push origin improve-feature)
+* Finaliza con Pull Request
