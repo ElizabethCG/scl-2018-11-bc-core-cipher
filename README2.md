@@ -12,6 +12,10 @@ diseño que tomaron.
 
 **_Querido Diario_** es una aplicación pensada para todas aquellas mujeres, pequeñas o grandes, que desean mantener un registro de su día a día, pero les interesa que su información se mantenga en secreto y no accesible a otras personas.
 
+
+![Querido Diario](https://github.com/ElizabethCG/imagenes/blob/master/Pant-Inic-Querido-Diario.pdf)
+
+
 **_Querido Diario_** cuenta con la metodología de [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher), que valiéndose de un código de encriptación secreto suministrado por el usuario,  permite cifrar el párrafo escrito, dejándolo ilegible para cualquier otra persona que no conozca dicho código de cifrado.
 
 
@@ -73,8 +77,7 @@ All files  |    72.73 |       50 |      100 |    71.88 |                   |
 ```
 
 
-![Test-aplicados](C:\Users\Elizabeth\Documents\javascript\cipher-code\scl-2018-11-bc-core-cipher\src)
-
+![Test-aplicados](https://github.com/ElizabethCG/imagenes/blob/master/test.png)
 
 
 
@@ -104,6 +107,7 @@ Desarrollo Front-end:
 * Variables
 * Control de flujo
 * Tests unitarios
+
 
 ##Mejoras futuras
 
