@@ -43,7 +43,7 @@ El color de fondo pretente aportar un aire de feminidad, creatividad e imaginaci
 Siguiendo en la linea anterior, se incorpora una imagen de fondo que permita un contraste, pero con una temática emimentemente femenina y fresca.
 
 
-### Interfaz de usuario (UI)
+## Interfaz de usuario (UI)
 
   La interfaz permite al usuario:
   - Elegir un _desplazamiento_ indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
@@ -68,7 +68,7 @@ En una versión futura se considerará la mejora para ambas situaciones.
 
 
 
-INFORMACIÓN PARA DESARROLLADORES
+# INFORMACIÓN PARA DESARROLLADORES
 
 ## Consideraciones Técnicas
 
@@ -160,7 +160,7 @@ All files  |    72.73 |       50 |      100 |    71.88 |                   |
 
 * Realiza un Fork al repositorio
 * Crea una nueva branch (git checkout -b improve-feature)
-* Realiza los cambios en los archivo
+* Realiza los cambios en los archivos
 * Realiza un Add para reflejar los cambios
 * Haz Commit de tus cambios (git commit -am 'Improve feature')
 * Realiza un Push a la rama (branch) (git push origin improve-feature)
