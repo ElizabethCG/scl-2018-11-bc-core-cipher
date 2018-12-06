@@ -1,7 +1,7 @@
 html {
   color: #595964;
   /* color: #C39BD3; */
-  /* background-color: #A8FFF3; */
+  /* background-color: #A8FFF3;  #333333*/
 
   background-color: #C39BD3;
   text-align: center;
@@ -35,8 +35,8 @@ body {
 
 
 }
-
-#btn{text-decoration:none;
+/* Corregir nombre */
+#btnes{text-decoration:none;
 font-weight: 400; //grosor
 font-size: 15px; // tamaño
 color:#333333;
@@ -67,11 +67,12 @@ border-style: solid;
 
 font-size: 20px;
 border-radius: 8px;
-height: 70px;
+height: 400px;
 width: 400px;
 /* font-family: 'Pacifico', cursive; */
 font-weight: 10;
-text-align: center;}
+text-align: center;
+}
 
 #desplazamiento{
 /* color:crimson; */
@@ -82,12 +83,12 @@ border-width: 2px;
 border-style: solid;
 border-radius:8px;
 
-font-size: 9x;
+font-size: 12px;
 /* border-radius: 100px; */
-height: 35px;
-width: 280px;
-font-family: 'Pacifico', cursive;
-font-weight: 20;
+height: 45px;
+width: 110px;
+font-family: 'Pacifico',cursive;
+font-weight: 30;
 text-align: center;}
 
 
