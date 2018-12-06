@@ -21,14 +21,14 @@ Después de una rigurosa investigación de mercado, se detectó que la mayoría 
 ## Como funciona
 
 Para guardar un mensaje primero escríbelo en la caja de texto,  luego ingresa el código de encriptación. Este código debe ser un número, de preferencia entre 1 y 25, aunque puedes elegir el número que tú desees. Una vez indicado el número presiona el botón cifrar.
-Automáticamente podrás ver como queda tu mensaje encriptado. Si deseas almacenar este texto, córtalo y pégalo en el editor de texto de preferencia o en tu block de notas, pero recuerda guardar el código de encriptación, de esta forma podrás descifrar tu texto en el futuro.
+Automáticamente podrás ver como queda tu mensaje encriptado. Si deseas almacenar este texto, córtalo y pégalo en el editor de texto de tu preferencia o en tu block de notas, pero recuerda guardar el código de encriptación, de esta forma podrás descifrar tu texto en el futuro.
 
 Para descifrar un mensaje ya encriptado corta y pega el párrafo en la caja de texto, indica el código de cifrado que utilizaste originalmente y luego presiona el botón descifrar. Con esto podrás visualizar tu mensaje nuevamente.
 
 
 ## Instalación
 
-Por el momento esta app no requiere instalación, ya que se accede a ella desde ![acá](https://ElizabethCG.github.io/scl-2018-11-bc-core-cipher/index.html)
+Por el momento esta app no requiere instalación, ya que se accede a ella desde [acá](https://ElizabethCG.github.io/scl-2018-11-bc-core-cipher/index.html)
 
 
 # Proceso y decisiones de diseño.
@@ -36,11 +36,11 @@ El formato está diseñado de tal forma que una persona puede acceder secuencial
 Ej. Si quieres cifrar un mensaje, los botones estarán desactivados hasta el momento en que hayas escrito tu texto e indicado el código de cifrado, ya que son prerequisitos para realizar el cifrado.
 
 En la parte superior aparece un breve texto de presentación de la aplicación y las opciones de revisar las instrucciones en caso de requerirlas o bien, leer más sobre la metodología de cifrado empleada.
-Dichas opciones estarán siempre visibles para dar la oportunidad al usuario de acceder a ellas de forma rápida en caso se precisarlo.
+Dichas opciones estarán siempre visibles para dar la oportunidad al usuario de acceder a ellas de forma rápida en caso de precisarlo.
 
 El color de fondo pretente aportar un aire de feminidad, creatividad e imaginación a la página, ya que son conceptos frecuentemente asociados a la escritura de un diario personal femenino y secreto.
 
-Siguiendo en la linea anterior, se incorpora una imagen de fondo que permita un contraste, pero con una temática emimentemente femenina y fresca.
+Siguiendo en la linea anterior, se incorpora una imagen de fondo que permita un contraste, pero con una temática eminentemente femenina y fresca.
 
 
 ## Interfaz de usuario (UI)
@@ -58,7 +58,7 @@ Siguiendo en la linea anterior, se incorpora una imagen de fondo que permita un 
 
 ## Mejoras futuras
 
-Esta versión de la aplicación no considera el cifrado de letras ñ ni otros caracteres epeciales (como espacios, puntuación, ñ, ...). Solamente se acota al cifrado del alfabeto español sin ñ, tanto mayúsculas como minúsculas.
+Esta versión de la aplicación no considera el cifrado de letras ñ ni otros caracteres especiales (como espacios, puntuación, ñ, etc.). Solamente se acota al cifrado del alfabeto español sin ñ, tanto mayúsculas como minúsculas.
 Cuando el usuario ingresa un caracter diferente, el caracter se considera en el texto, pero sin cifrarse.
 
 El desplazamiento solo se considera para números enteros positivos.
@@ -68,7 +68,7 @@ En una versión futura se considerará la mejora para ambas situaciones.
 
 
 
-# INFORMACIÓN PARA DESARROLLADORES
+# Información para desarrolladores
 
 ## Consideraciones Técnicas
 
@@ -78,8 +78,8 @@ En este proyecto no usa librerías o frameworks, sólo
 
 No se usa la _pseudo-variable_ `this`.
 
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
-y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
+Los tests unitarios cubren el 70% de _statements_, _functions_
+y _lines_, y un 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
 coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
 test`.
@@ -123,7 +123,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 
 
-# Test aplicados:
+## Test aplicados:
 
 Para ejecutar los test se debe correr la instrucción "npm test". El resultado en la consola es el siguiente:
 
@@ -161,7 +161,7 @@ All files  |    72.73 |       50 |      100 |    71.88 |                   |
 * Realiza un Fork al repositorio
 * Crea una nueva branch (git checkout -b improve-feature)
 * Realiza los cambios en los archivos
-* Realiza un Add para reflejar los cambios
+* Realiza un Add para seleccionar los cambios
 * Haz Commit de tus cambios (git commit -am 'Improve feature')
 * Realiza un Push a la rama (branch) (git push origin improve-feature)
 * Finaliza con Pull Request
