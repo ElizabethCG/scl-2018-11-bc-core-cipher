@@ -1,26 +1,12 @@
-# Proceso y decisiones de diseño.
-## Consideraciones generales
-### General
-[cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
+# Proceso y decisiones de diseño. letra grande
+## Consideraciones generales      letra mediana
+### General                       letra más pequeña
+
+
 
 Proporciona calma.
 Muchas marcas lo utilizan para representar la creatividad, la imaginación y la sabiduría.
 Se asocia a lo femenino, a la magia y la espiritualidad.
-
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
-
-[ ] `README.md` casilla verificación
-_offset_  cursivas?
-_**strings**_
-cursivas y negrita
-
-- (viñetas).
-**HTML** negritas
-
-* `README.md`: destacado y viñeta
-
-
-
 
 
 
