@@ -78,8 +78,8 @@ En este proyecto no usa librerías o frameworks, sólo
 
 No se usa la _pseudo-variable_ `this`.
 
-Los tests unitarios cubren el 70% de _statements_, _functions_
-y _lines_, y un 50% de _branches_. El _boilerplate_ ya contiene el
+Los tests unitarios cubren el 100% de _statements_, _functions_
+y _lines_, y un 100% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
 coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
 test`.
@@ -129,24 +129,31 @@ Para ejecutar los test se debe correr la instrucción "npm test". El resultado e
 
 ```text
 
+
+
   cipher
     √ debería ser un objeto
     cipher.encode
       √ debería ser una función
-      √ debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offest 33
+      √ debería retornar "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33
+      √ debería retornar "hijklmnopqrstuvwxyzabcdefg" para "abcdefghijklmnopqrstuvwxyz" con offset 33
+      √ debería retornar "Ññ#" para "Ññ#" con offset 33
     cipher.decode
       √ debería ser una función
-      √ debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offest 33
+      √ debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33
+      √ debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33
+      √ debería retornar "Ññ#" para "Ññ#" con offset 33
 
 
-  5 passing (29ms)
+  9 passing (28ms)
 
 -----------|----------|----------|----------|----------|-------------------|
 File       |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
 -----------|----------|----------|----------|----------|-------------------|
-All files  |    72.73 |       50 |      100 |    71.88 |                   |
- cipher.js |    72.73 |       50 |      100 |    71.88 |... 49,50,51,53,60 |
+All files  |      100 |      100 |      100 |      100 |                   |
+ cipher.js |      100 |      100 |      100 |      100 |                   |
 -----------|----------|----------|----------|----------|-------------------|
+
 ```
 
 
