@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es"> 
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
@@ -8,6 +8,9 @@
 
 
   <body>
+
+<p> <span class="iconFacebookLayout"></span>
+</p>
 
     <div id="pInicial">
        <h1> Bienvenida a Querido Diario </h1>
@@ -45,12 +48,12 @@
 
      <div id="bienvenido">
         <h1> Querido Diario... tu secreto mejor guardado </h1>
-        <img src="flores-amarillas.jpg" width="400" height="200" />
+        <img alt="Imagen de fondo Flores" src="flores-amarillas.jpg" width="400" height="200" />
         <p></p>
 
         <form>
-               <input type="text"  class="cajaTextoInic" id="mensaje"        title="Ingresar solo letras entre A y Z" placeholder="Escribe tu párrafo aquí" name="mensaje"        required/>
-            <p><input type="number"                      id="desplazamiento" title="Ingresar un número entre 2 y 99"  placeholder="Desplazamiento"          name="desplazamiento" required disabled></p>
+               <input type="text"  class="cajaTextoInic" id="mensaje"        title="Ingresa tu texto. Los caracteres especiales no serán cifrados " placeholder="Escribe tu párrafo aquí" name="mensaje"        required/>
+            <p><input type="number"                      id="desplazamiento" title="Ingresa un número entero de preferencia entre 1 y 25 "  placeholder="Desplazamiento"          name="desplazamiento" required disabled></p>
 
 
             <p><button id="btnCifrar"  disabled>    Cifrar  mensaje       </button>
@@ -61,8 +64,7 @@
 
 
     <div id="mensajeFinal">
-       <p1> </p1>
-       <p2>Mensaje cifrado aquí</p2>
+       <p>Mensaje cifrado aquí</p>
     </div>
 
 
