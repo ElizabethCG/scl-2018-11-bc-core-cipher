@@ -55,6 +55,17 @@ text-align: center;}
   text-align: center;
 }
 
+span.iconFacebookLayout {
+    height: 39px;
+    width: 39px;
+    background: transparent url(https://campus.abaenglish.com/themes/ABAenglish/media/images/icons.png) no-repeat -4px -383px;
+    display: inline-block;
+    #display: inline;
+    _display: inline;
+    zoom: 1;
+    vertical-align: top;
+}
+
 
 /* button{text-decoration:none;
 font-weight: 400; //grosor
