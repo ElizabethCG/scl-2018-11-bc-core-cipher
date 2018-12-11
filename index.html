@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es"> 
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
@@ -19,7 +19,7 @@
        <p>Esta aplicación utiliza el método de cifrado César para proteger tu privacidad y mantener resguardada tu información. </p>
      </div>
 
-     <div id="instruccionesUso" style="display: none">
+     <div id="instruccionesUso">
         <p>El cifrado César es una  técnica de cifrado por sustitución que permite encriptar tu mensaje. Una vez cifrado tu mensaje, podrás guardarlo en tu diario y revisarlo las veces que desees.</p>
         <p>Si quieres guardar un mensaje primero escríbelo en la caja de texto,  luego ingresa o selecciona el código de encriptación. Este código debe ser un número entre 1 y 99. Una vez indicado el número presiona el botón cifrar. </p>
         <p>Automáticamente podrás ver como queda tu mensaje secreto. Posteriormente, corta y pega en tu diario el texto encriptado y guarda el código de encriptación, para que puedas recuperar tu texto en un futuro.</p>
@@ -42,8 +42,8 @@
 
 
      <div>
-       <input type="button" id="volverLeerMas" value=" Atrás "  style="display: none"/>
-       <input type="button" id="volverInstrucciones" value=" Atrás "  style="display: none"/>
+       <input type="button" id="volverLeerMas" value=" Atrás " />
+       <input type="button" id="volverInstrucciones" value=" Atrás "/>
      </div>
 
      <div id="bienvenido">
@@ -72,7 +72,11 @@
       <!-- <div id="root">
         <h1> </h1>
       </div> -->
-
+      
+      <footer>
+              <p>&#167;</p>
+              <p>&#169; 2018&#8211;12 <a href="#">Querido Diario</a></p>
+      </footer>
 
  <script src="cipher.js"></script>
  <script src="index.js"></script>

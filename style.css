@@ -10,6 +10,13 @@ body {
 
 }
 
+#instruccionesUso{display: none;}
+
+#volverLeerMas{display: none;}
+
+#volverInstrucciones{display: none;}
+
+
 
 #mensaje{
 background-color:azure;

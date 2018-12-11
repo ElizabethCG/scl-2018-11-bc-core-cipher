@@ -38,6 +38,8 @@ if(64<caracterAscii&&caracterAscii<91){
  tipoConvertir="caracteresEspeciales3";
 }  else if (122<caracterAscii&&caracterAscii<127) {
  tipoConvertir="caracteresEspeciales4";
+}  else if (127<caracterAscii&&caracterAscii<255) {
+ tipoConvertir="caracteresEspeciales5";
 
  }else{tipoConvertir="noConvertir";}
 
@@ -89,14 +91,18 @@ switch (tipoConvertir) {
         cifrado=(cipher.aplicaFormulaCifrarDescifrar(cifrado,caracterAscii,offset,rangoInferior,rangoSuperior));
         break;
 
-
+        case ("caracteresEspeciales5"):
+        rangoInferior=128;
+        rangoSuperior=254; /* Para calcular extensión del rango*/
+        cifrado=(cipher.aplicaFormulaCifrarDescifrar(cifrado,caracterAscii,offset,rangoInferior,rangoSuperior));
+        break;
 
 
 
         default:
         cifrado=cifrado+analisisMensaje[i];
-        console.log(cifrado);
         }
+
       }return cifrado  },
 
 
